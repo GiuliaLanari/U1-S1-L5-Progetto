@@ -1,0 +1,125 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+/* INTESTAZIONE*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  width: 500px;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+/*HEADER*/
+header {
+  text-align: center;
+}
+h1,
+h3 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-block-start: -1.5rem;
+  margin-block-end: 1.5rem;
+}
+
+h3 {
+  margin-block: 1.5rem;
+}
+
+.logo {
+  background-color: black;
+  padding-block: 30px;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.sfondo-partiamo {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-inline: 1rem;
+  padding-block: 3rem;
+  margin-block-end: 1rem;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f04c2f;
+  margin-block-start: 1rem;
+  color: white;
+}
+
+/* MAIN*/
+main {
+  text-align: center;
+  margin-block: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-block-start: 1.5rem;
+}
+
+p {
+  line-height: 1.5;
+  padding-inline: 4rem;
+  margin-block: 0.5rem;
+}
+
+.corsivo {
+  font-style: italic;
+}
+
+.mario {
+  margin-block-start: 30px;
+  font-size: 28px;
+}
+
+#img-tonda {
+  border-radius: 100%;
+}
+
+.testimonianza {
+  background-color: #e22d0e;
+  color: white;
+  height: 18rem;
+  margin-block: 5rem;
+  padding: 2rem rem;
+}
+/*CARSD*/
+.cards {
+  margin-inline: 2rem;
+  border: 1px solid #dee1e3;
+  margin-block-end: 3rem;
+}
+.cards img {
+  width: 100%;
+}
+/* FOOTER*/
+footer {
+  color: white;
+  background-color: #25a2c3;
+  text-align: center;
+  padding-block: 2rem;
+}
+
+hr {
+  width: 13rem;
+  margin-block: 2rem;
+}
+.ancora-bianche {
+  color: white;
+}
