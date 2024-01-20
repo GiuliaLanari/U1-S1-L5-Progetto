@@ -57,6 +57,7 @@ button {
   padding: 1rem;
   border-radius: 10px;
   background-color: #f04c2f;
+  border-color: #f04c2f;
   margin-block-start: 1rem;
   color: white;
 }
@@ -89,6 +90,7 @@ p {
 }
 
 #img-tonda {
+  margin-block-start: 2rem;
   border-radius: 100%;
 }
 
@@ -117,7 +119,7 @@ footer {
 }
 
 hr {
-  width: 13rem;
+  width: 15rem;
   margin-block: 2rem;
 }
 .ancora-bianche {

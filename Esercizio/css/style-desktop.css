@@ -44,7 +44,7 @@ h3 {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-position: center;
-  padding-inline: 1rem;
+  padding-inline: 10rem;
   padding-block: 3rem;
   margin-block-end: 1rem;
   height: 20rem;
@@ -57,6 +57,7 @@ button {
   padding: 1rem;
   border-radius: 10px;
   background-color: #f04c2f;
+  border-color: #f04c2f;
   margin-block-start: 1rem;
   color: white;
 }
@@ -86,6 +87,10 @@ p {
   font-size: 28px;
 }
 
+.box-img-testo-lato {
+  width: 100%;
+  text-align: center;
+}
 #img-tonda {
   border-radius: 100%;
 }
@@ -95,6 +100,7 @@ p {
   width: 50%;
   margin-inline-start: 3rem;
   font-size: 1rem;
+  text-align: left;
 }
 
 .testimonianza {
@@ -106,6 +112,12 @@ p {
   padding: 2rem rem;
 }
 /*CARSD*/
+
+.box-cards {
+  width: 100%;
+  text-align: center;
+  margin-inline: auto;
+}
 .cards {
   font-size: 1rem;
   display: inline-block;
@@ -114,6 +126,8 @@ p {
   margin-block-end: 3rem;
   width: 25%;
   text-align: center;
+  vertical-align: text-top;
+  height: 25rem;
 }
 .cards img {
   width: 100%;
@@ -123,12 +137,16 @@ p {
 footer {
   color: white;
   background-color: #25a2c3;
-  text-align: center;
   padding-block: 2rem;
+  text-align: center;
 }
 
+.footer-child {
+  text-align: left;
+  display: inline-block;
+}
 hr {
-  width: 19rem;
+  width: 15rem;
   margin-block: 2rem;
 }
 .ancora-bianche {
